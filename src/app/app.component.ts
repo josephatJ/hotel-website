@@ -19,7 +19,7 @@ export class AppComponent {
     this.translate.use('en');
 
     // Set application title
-    this.setTitle('Seed application');
+    this.setTitle('BlueSkyHotel');
   }
 
   public setTitle(newTitle: string) {

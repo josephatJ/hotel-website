@@ -1,0 +1,19 @@
+section {
+    margin-top: 20px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+
+.text-center {
+    text-align: center !important;
+}
+
+h3 {
+    font-size: 1.61em;
+    line-height: 1.05em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}

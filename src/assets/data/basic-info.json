@@ -1,0 +1,12 @@
+{
+    "header": [
+        {
+            "id": "home",
+            "name": "Home"
+        },
+        {
+            "id": "contacts",
+            "name": "Contacts"
+        }
+    ]
+}

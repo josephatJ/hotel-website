@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 70px;
+    height: auto;
+    background-color: #303030;
+}
+
+.contents {
+    padding: 30px;
+}
+
+.header h4 {
+    color: #FFF;
+}
+
+.contents p, address, .copyright-message {
+    color: #9B9B9B;
+}
+
+.read-more-btn {
+    background-color: #e72f40;
+    border-color: #e72f40;
+    border-radius: 8px;
+}
+
+.copyright-message p{
+    text-align: center;
+}
+
+.copyright-message {
+    margin-top: 30px;
+}

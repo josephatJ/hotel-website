@@ -1,11 +1,27 @@
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { HomeComponent } from './pages';
+import { HomeComponent, ContactsComponent, RoomsComponent, AboutUsComponent, ServicesComponent } from './pages';
 
 export const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'contacts',
+    component: ContactsComponent
+  },
+  {
+    path: 'rooms-and-rates/:type',
+    component: RoomsComponent
+  },
+  {
+    path: 'services/:type',
+    component: ServicesComponent
+  },
+  {
+    path: 'about-us',
+    component: AboutUsComponent
   }
 ];
 

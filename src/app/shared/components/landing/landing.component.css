@@ -1,0 +1,53 @@
+.quick-access-div {
+    height: 50px;
+    width: 100%;
+}
+
+.message-over-image {
+    font-weight: 600;
+}
+
+.caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.quick-access {
+    width: 20%; height: 70px;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1rem;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .quick-access {
+        width: 27%; height: 70px;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 0.7rem;
+        padding: 8px;
+        cursor: pointer;
+    }
+  }
+
+
+.group-1 {
+    background-color: #CC856F;
+}
+
+.group-2 {
+    background-color: #2E3F60;
+}
+
+.group-3 {
+    background-color: #363636;
+}

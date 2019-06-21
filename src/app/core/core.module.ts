@@ -8,12 +8,11 @@ import {
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import {
-  Dhis2ApiService,
   IndexDbServiceConfig,
   IndexDbService
 } from './services';
 
-export function initialize(dhis2ApiService: Dhis2ApiService) {
+export function initialize(dhis2ApiService: any) {
   return () => dhis2ApiService.initialize();
 }
 
@@ -24,14 +23,7 @@ export function initializeDb(indexDbServiceConfig: IndexDbServiceConfig) {
 @NgModule({
   imports: [CommonModule, HttpClientModule],
   declarations: [],
-  providers: [
-    {
-      provide: APP_INITIALIZER,
-      useFactory: initialize,
-      deps: [Dhis2ApiService],
-      multi: true
-    }
-  ],
+  providers: [],
   exports: []
 })
 export class CoreModule {

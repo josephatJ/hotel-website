@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-color">
+  <a class="navbar-brand" href="#">
+    <img src="assets/images/blue-sky-hotel-logo.png" height="70" width="120">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/" [ngClass]="homeIsSet == true? 'active-link': ''">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" [ngClass]="servicesSet == true? 'active-link': ''" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLinkActive="active-link" routerLink="/services/breakfast">BreakFast</a>
+          <a class="dropdown-item" routerLinkActive="active-link" routerLink="/services/laundry">Laundry</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLinkActive="active-link" routerLink="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" routerLink="/contacts">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" [ngClass]="roomsAndRatesSet == true? 'active-link': ''" routerLink="/rooms-and-rates/first-class">Rooms/Rates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" routerLink="/about-us">About Us</a>
+      </li>
+    </ul>
+    <div class="form-inline my-2 my-lg-0">
+      <address>
+        <b>Phone:</b> 0766 460 759<br>
+        <b>Email:</b>  <em><a href="mailto:info@blueskyhotel.org">info@blueskyhotel.org</a></em><br>
+      </address>
+    </div>
+  </div>
+</nav>
