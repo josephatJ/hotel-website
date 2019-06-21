@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build --prod --aot && cd dist/blueskyhotel-app && zip -r -D blueskyhotel-app.zip .",
     "test": "ng test",
-    "test:travis": "ng test -- --no-watch --no-progress --code-coverage --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "e2e:travis": "ng e2e -- --protractor-config=e2e/protractor-ci.conf.js",
