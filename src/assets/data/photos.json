@@ -1,0 +1,45 @@
+[
+    {
+      "id": "bluesky_hotel_font_1",
+      "imgUrl": "assets/images/gallery/2019/blueskyhotel_font_1.jpg",
+      "description": "A photo for BlueSky Hotel showing the reception side of the hotel",
+      "placeUrl": "",
+      "eventPeriod": "2019",
+      "typeOfEvent": "Photo",
+      "members": [ 
+          {
+            "id": "",
+            "address": ""
+        }
+      ]
+    },
+    {
+        "id": "bluesky_hotel_font_2",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_font_2.jpg",
+        "description": "A photo for BlueSky Hotel showing the reception side of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "bluesky_hotel_font_3",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_font_3.jpg",
+        "description": "A photo for BlueSky Hotel showing the reception side of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      }
+  ]
+  

@@ -29,6 +29,7 @@ import * as sharedComponents from './shared';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { reducers, metaReducers } from './store';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { SliderGalleryComponent } from './pages/gallery/slider-gallery/slider-gallery.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -36,7 +37,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 @NgModule({
-  declarations: [AppComponent, ...fromPages.pages, ...sharedComponents.sharedComponents, GalleryComponent],
+  declarations: [AppComponent, ...fromPages.pages, ...sharedComponents.sharedComponents, GalleryComponent, SliderGalleryComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
