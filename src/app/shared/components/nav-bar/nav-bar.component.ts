@@ -22,6 +22,7 @@ export class NavBarComponent implements OnInit {
       this.homeIsSet = true;
     } else if (this.router.url.indexOf('rooms-and-rates') > -1) {
       this.roomsAndRatesSet = true;
+      console.log(this.roomsAndRatesSet, this.router.url)
     } else if (this.router.url.indexOf('services') > -1) {
       this.servicesSet = true;
     }

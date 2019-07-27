@@ -1,7 +1,87 @@
 <div class="container-fluid">
   <app-nav-bar></app-nav-bar>
-  <p>
-      Rooms works!
-    </p>
+  <div class="row" style="margin-top: 20px">
+    <div class="col-md-2">
+      <div class="menu-btns" [ngClass]="activeRoomType == 'first-class'? 'active-link': ''" routerLink="/rooms-and-rates/first-class">
+        Category 1 Rooms
+      </div>
+      <div class="menu-btns" [ngClass]="activeRoomType == 'second-class'? 'active-link': ''" routerLink="/rooms-and-rates/second-class">
+        Category 2 Rooms
+      </div>
+      <div class="menu-btns" [ngClass]="activeRoomType == 'third-class'? 'active-link': ''" routerLink="/rooms-and-rates/third-class">
+        Category 3 Rooms
+      </div>
+    </div>
+    <div class="col-md-10">
+      <div *ngIf="activeRoomType == 'first-class'">
+        <div class="row">
+          <div class="col-md-6">
+            <div>
+              <img src="assets/images/blueskyhotel_first_class_room_1.jpg" routerLink="/rooms-and-rates/first-class" width="100%" height="320px" style="margin-right: 2%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4>Cat. 1 room: TShs 30,000/- (7 Rooms)</h4>
+            <ul>
+                <li>Self contained</li>
+                <li>Full  Air condition</li>
+                <li>Wireless internet connectivity </li>
+                <li>Telephone </li>
+                <li>Bathroom with warm and cold water </li>
+                <li>Standard singled room </li>
+                <li>Flat screen TV  </li>
+                <li>Breakfast included </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Second class -->
+      <div *ngIf="activeRoomType == 'second-class'">
+        <div class="row">
+          <div class="col-md-6">
+              <div>
+                <img src="assets/images/blueskyhotel_room_materials_1.jpg" routerLink="/rooms-and-rates/second-class" width="100%" height="320px" style="margin-right: 2%">
+              </div>
+          </div>
+          <div class="col-md-6">
+            <h4>Cat. 2 room: TShs 20,000/- (5 Rooms)</h4>
+            <ul>
+              <li>Self contained</li>
+              <li>No  Air condition but fan</li>
+              <li>Wireless internet connectivity </li>
+              <li>Telephone </li>
+              <li>Bathroom with warm and cold water </li>
+              <li>Standard singled room </li>
+              <li>Flat screen TV  </li>
+              <li>Breakfast included </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Third class -->
+      <div *ngIf="activeRoomType == 'third-class'">
+        <div class="row">
+          <div class="col-md-6">
+              <div>
+                <img src="assets/images/blueskyhotel_room_materials_1.jpg" routerLink="/rooms-and-rates/third-class" width="100%" height="320px" style="margin-right: 2%">
+              </div>
+          </div>
+          <div class="col-md-6">
+            <h4>Cat. 3 room: TShs 15,000/- (2 Rooms)</h4>
+            <ul>
+              <li>Self contained</li>
+              <li>No  Air condition but fan</li>
+              <li>Wireless internet connectivity </li>
+              <li>Telephone </li>
+              <li>Bathroom with warm and cold water </li>
+              <li>Standard singled room </li>
+              <li>Flat screen TV  </li>
+              <li>Breakfast included </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
   

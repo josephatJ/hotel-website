@@ -1,0 +1,16 @@
+
+.menu-btns {
+    color: #4264a3;
+    padding: 6px;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+.active-link {
+    background-color: #4264a3;
+    color: #ffffff;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: none;
+}
