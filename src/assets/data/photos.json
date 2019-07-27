@@ -14,6 +14,20 @@
       ]
     },
     {
+      "id": "blueskyhotel_service_relaxing_stay_1",
+      "imgUrl": "assets/images/gallery/2019/blueskyhotel_relaxing_stay_1.jpg",
+      "description": "A photo for BlueSky Hotel showing the Reception of the hotel",
+      "placeUrl": "",
+      "eventPeriod": "2019",
+      "typeOfEvent": "Photo",
+      "members": [ 
+          {
+            "id": "",
+            "address": ""
+        }
+      ]
+    },
+    {
         "id": "bluesky_hotel_font_2",
         "imgUrl": "assets/images/gallery/2019/blueskyhotel_font_2.jpg",
         "description": "A photo for BlueSky Hotel showing the reception side of the hotel",
@@ -29,8 +43,148 @@
       },
       {
         "id": "bluesky_hotel_font_3",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_first_class_room_1.jpg",
+        "description": "A photo for BlueSky Hotel showing the first class room (TShs 30,000/-)",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "bluesky_hotel_font_3",
         "imgUrl": "assets/images/gallery/2019/blueskyhotel_font_3.jpg",
         "description": "A photo for BlueSky Hotel showing the reception side of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "bluesky_hotel_font_4",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_font_4.jpg",
+        "description": "A photo for BlueSky Hotel showing the reception side of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "bluesky_hotel_font_3",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_second_class_room_1.jpg",
+        "description": "A photo for BlueSky Hotel showing the first class room (TShs 30,000/-)",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "blueskyhotel_kitchen_1",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_kitchen_1.jpg",
+        "description": "A photo for BlueSky Hotel showing the Kitchen of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "blueskyhotel_drinks_1",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_drinks_1.jpg",
+        "description": "A photo for BlueSky Hotel showing the Kitchen of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "blueskyhotel_service_providers_1",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_service_providers_1.jpg",
+        "description": "A photo for BlueSky Hotel showing the Kitchen of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "blueskyhotel_service_providers_2",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_service_providers_2.jpg",
+        "description": "A photo for BlueSky Hotel showing the Kitchen of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "blueskyhotel_service_reception_1",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_service_reception_1.jpg",
+        "description": "A photo for BlueSky Hotel showing the Reception of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "blueskyhotel_service_reception_2",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_service_reception_2.jpg",
+        "description": "A photo for BlueSky Hotel showing the Reception of the hotel",
+        "placeUrl": "",
+        "eventPeriod": "2019",
+        "typeOfEvent": "Photo",
+        "members": [ 
+            {
+              "id": "",
+              "address": ""
+          }
+        ]
+      },
+      {
+        "id": "blueskyhotel_room_materials_1.jpg",
+        "imgUrl": "assets/images/gallery/2019/blueskyhotel_room_materials_1.jpg.jpg",
+        "description": "A photo for BlueSky Hotel showing the available materials in our luxury rooms",
         "placeUrl": "",
         "eventPeriod": "2019",
         "typeOfEvent": "Photo",
