@@ -9,9 +9,5 @@ export class SliderGalleryComponent implements OnInit {
   @Input() sliderPhotos: any;
   constructor() {}
 
-  ngOnInit() {
-    if (this.sliderPhotos) {
-      console.log("sliderPhotos", this.sliderPhotos);
-    }
-  }
+  ngOnInit() {}
 }

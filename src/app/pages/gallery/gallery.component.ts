@@ -19,7 +19,6 @@ export class GalleryComponent implements OnInit {
     this.photosService.loadAll().subscribe(
       photos => {
         this.photos = photos;
-        console.log(photos);
         this.loading = false;
         this.hasError = false;
       },
