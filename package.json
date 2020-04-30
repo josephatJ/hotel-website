@@ -39,7 +39,7 @@
     "d2": "^31.5.0",
     "dexie": "^2.0.4",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngrx-store-freeze": "^0.2.4",
     "owl.carousel": "^2.3.4",
     "rxjs": "~6.5.1",
